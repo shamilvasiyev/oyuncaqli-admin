@@ -1,0 +1,24 @@
+.orderProdWrapper {
+  /* display: flex; */
+  border: 1px solid #888;
+  margin-bottom: 10px;
+  padding: 25px;
+}
+
+.orderProdWrapper .orderProdImageBox {
+  max-width: 50%;
+}
+
+.orderProdWrapper .orderProdImageBox img {
+  width: 100%;
+}
+
+.orderProdWrapper .paragraph__header {
+  padding: 10px 0;
+  border-bottom: 1px solid #000;
+}
+
+.orderProdWrapper .paragraph__header:last-child {
+  border: none;
+  padding-bottom: 0;
+}
